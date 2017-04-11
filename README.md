@@ -50,6 +50,13 @@ Recent Releases
 ================================
 #### Please Note: trunk is current development branch.
 
+#### 27-Aug-2016 - version 1.7.12 released  
+Feature - `SocketIOServer.removeAllListeners` method added
+Feature - `BroadcastOperations.sendEvent` method with `excludedClient` param added
+Improvement - Redisson updated to 2.4.0
+Fixed - memory leak in Namespace object (thanks to @CrazyIvan007)
+
+
 #### 13-Jul-2016 - version 1.7.11 released  
 Fixed - Throw error if transport not supported  
 Fixed - Client disconnecting when using Polling - IndexOutOfBoundsException  
@@ -218,7 +225,7 @@ Include the following to your dependency list:
     <dependency>
      <groupId>com.corundumstudio.socketio</groupId>
      <artifactId>netty-socketio</artifactId>
-     <version>1.7.8</version>
+     <version>1.7.12</version>
     </dependency>
     
 ### Supported by
